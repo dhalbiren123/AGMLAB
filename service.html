@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/service.css">
     <link rel="stylesheet" href="css/hover.css">  
 	 <link rel="stylesheet" href="css/responsive-menu.css">
-	
+	<link href="lib/animate/animate.css" rel="stylesheet" />
 		<!-- bxSlider CSS file -->
 		<!-- <link href="css/jquery.bxslider.css" rel="stylesheet" /> -->
 		
@@ -46,7 +46,6 @@
                         <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
                         <div class="c"></div>
                     </ul>
                 </div>
@@ -114,7 +113,7 @@
 </div>
 </div>
 <div class="row st-box">
-<div class="col-md-4 st n1">
+<div class="col-md-4 st n1 wow animate__zoomIn">
 <div class="row">
 <div class="col-md-12 st-con">
 <!-- <img src="" alt=""/> -->
@@ -128,7 +127,7 @@
 </div>
 </div>
 </div>
-<div class="col-md-4 st n1">
+<div class="col-md-4 st n1 wow animate__zoomIn">
 <div class="row">
 <div class="col-md-12 st-con">
 <img src="images/wire.png" alt="" class="st-f"/>
@@ -141,7 +140,7 @@
 </div>
 </div>
 </div>
-<div class="col-md-4 st s-tr n1">
+<div class="col-md-4 st s-tr n1 wow animate__zoomIn">
 <div class="row">
 <div class="col-md-12 st-con">
 <img src="images/carpet.png" alt="" class="st-f"/>
@@ -154,7 +153,7 @@
 </div>
 </div>
 </div>
-<div class="col-md-4 st n1">
+<div class="col-md-4 st n1 wow animate__zoomIn">
 <div class="row">
 <div class="col-md-12 st-con">
 <!-- <img src="" alt=""/> -->
@@ -168,7 +167,7 @@
 </div>
 </div>
 </div>
-<div class="col-md-4 st n1">
+<div class="col-md-4 st n1 wow animate__zoomIn">
 <div class="row">
 <div class="col-md-12 st-con">
 <img src="images/wire.png" alt="" class="st-f"/>
@@ -182,7 +181,7 @@
 </div>
 </div>
 </div>
-<div class="col-md-4 st s-tr n1">
+<div class="col-md-4 st s-tr n1 wow animate__zoomIn">
 <div class="row">
 <div class="col-md-12 st-con">
 <img src="images/carpet.png" alt="" class="st-f"/>
@@ -290,7 +289,7 @@
 <div class="footer">
             <div class="container">
             <div class="row">
-            <div class="f col-md-3 f1">
+            <div class="f col-md-3 f1 wow animate__fadeInUp">
             <div class="row">
 			<div class="col-md-12 fc">
             <a href="index.html">
@@ -299,7 +298,7 @@
             </div>
             </div>
 			</div>
-            <div class="f col-md-3 f2">
+            <div class="f col-md-3 f2 wow animate__fadeInUp">
 				<div class="row">
 					<div class="col-md-12 f2-con">
 						<h3>Contact Us</h3>
@@ -322,7 +321,7 @@
 				</div>
 			</div>
             
-            <div class="f col-md-3 f3">
+            <div class="f col-md-3 f3 wow animate__fadeInUp">
             <h3>Quick Links</h3>
             <hr class="line" />
             <ul>
@@ -333,7 +332,7 @@
             <li><a href="contact.html"><i class="fa-solid fa-angles-right"></i>  Contact</a></li>
             </ul>
             </div>
-            <div class="f col-md-3 f4">
+            <div class="f col-md-3 f4 wow animate__fadeInUp">
             <h3>Reach Us</h3>
             <hr class="line" />
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59232.457358233856!2d83.31713458848854!3d21.89497500684565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a27253cf3eb615d%3A0x29629b8b0a92e6e!2sRaigarh%2C%20Chhattisgarh%20496001!5e0!3m2!1sen!2sin!4v1720960934975!5m2!1sen!2sin" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -350,7 +349,7 @@
 <div class="last">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 l-con">
+            <div class="col-md-12 l-con wow animate__zoomIn">
                 <p> <a href="#">Raigarh</a> | <a href="#">Korba</a>  | <a href="#">Singrauli</a> | <a href="#">Chirimiri</a> | <a href="#">MCL</a> | <a href="#">Vizag Port</a> | <a href="#">Gangavaram Port</a> | <a href="#">Paradeep Port</a> | <a href="#">Haldia Port</a></p>
             </div>
         </div>
@@ -411,6 +410,18 @@ function myFunction() {
 	<script src="js/lightbox.js"></script>
 	<script src="js/product.js"></script>
 	<script src="js/responsive-menu.js"></script>
+	<script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+	<script>
+wow = new WOW( {
+    boxClass:     'wow',
+    animateClass: 'animated',
+    offset:       100
+    }
+);
+
+wow.init();
+</script>
 </body>
 
 

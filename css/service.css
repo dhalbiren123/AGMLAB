@@ -1,3 +1,21 @@
+.st{
+	animation:zoomIn 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .ser-ban{
 	background:url(../images/service.jpeg)no-repeat left top rgba(0,0,0,0.5);
 	background-blend-mode:multiply;

@@ -1127,12 +1127,12 @@ textarea:focus{
 .ab-ri h1{
 	animation:fadeIn 2s;
 }
-.f{
+.footer .f{
 	animation:fadeInUp 1s;
 	
 }
 .s-head{
-	animation:fadeInDown 1s;
+	animation:fadeInDown 2s;
 }
 .s-title{
 	animation:fadeInLeft 1.5s;
@@ -1155,7 +1155,9 @@ textarea:focus{
 .rig{
 	animation:fadeInRight 1s;
 }
-
+.last .l-con{
+	animation:zoomIn 1s;
+}
 
 
 
