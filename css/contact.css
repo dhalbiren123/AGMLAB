@@ -1,3 +1,17 @@
+.s-contact .sc{
+	animation:fadeInLeft 2s;
+}
+
+.details .d1{
+	animation:fadeInLeft 2s;
+}
+.details .d2{
+	animation:fadeInRight 2s;
+}
+.details .d3{
+	animation:fadeInLeft 2s;
+}
+
 .con-ban{
 	background:url(../images/contact-us-banner.jpg)no-repeat left top rgba(0,0,0,0.5);
 	background-blend-mode:multiply;

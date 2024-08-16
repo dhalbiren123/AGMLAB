@@ -10,6 +10,7 @@
 	  <link rel="stylesheet" href="css/lightbox.css">
 	  <link rel="stylesheet" href="css/product.css" >
 	 <link rel="stylesheet" href="css/responsive-menu.css">
+	  <link href="lib/animate/animate.css" rel="stylesheet" />
 		<!-- bxSlider CSS file -->
 		<link href="css/jquery.bxslider.css" rel="stylesheet" />
 		
@@ -101,7 +102,7 @@
 <div class="s-contact">
     <div class="container-fluid">
 			  <div class="row">
-			  <div class="col-md-12 sc">
+			  <div class="col-md-12 sc wow animate__fadeInLeft">
 			  <h2>NOT SURE WHICH OF OUR SOLUTION MEET YOUR NEED?
 			  CONTACT US FOR A FREE CONSULTATION</h2>
 			  
@@ -173,21 +174,21 @@
 <div class="details">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 d1">
+            <div class="col-md-12 d1 wow animate__fadeInLeft">
 			<h2>Find Us</h2>
 			<h3>Abinash Kumar</h3>
 			<p>Ward No. 38,
 				Tendudeepa, Dewar Para,
 				Raigarh, Chhattisgarh 496001</p>
 			</div>
-            <div class="col-md-12 d2">
+            <div class="col-md-12 d2 wow animate__fadeInRight">
 			<ul>
 				<li><img src="images/call.png" class="s1"><a href="tel:+91-7377025026">7377025026</a></li>
 				<li><img src="images/chat.png" class="s1"><a href="#">SEND SMS</a></li>
 				<li><img src="images/email-1.png" class="s1"><a href="mailto:operations@agmlab.co.in">SEND E-MAIL</a></li>
 			</ul>
 			</div>
-            <div class="col-md-12 d3">
+            <div class="col-md-12 d3 wow animate__fadeInLeft">
 			
 			<ul>
 				<li><h3>Share For:</h3></li>
@@ -330,6 +331,18 @@ function myFunction() {
 	<script src="js/lightbox.js"></script>
 	<script src="js/product.js"></script>
 	<script src="js/responsive-menu.js"></script>
+		<script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+	<script>
+wow = new WOW( {
+    boxClass:     'wow',
+    animateClass: 'animated',
+    offset:       100
+    }
+);
+
+wow.init();
+</script>
 </body>
 
 
